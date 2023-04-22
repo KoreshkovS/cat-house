@@ -207,7 +207,7 @@ body {
   }
 }
 .main__container {
-  background-image: url(../../img/bg-picture.jpg);
+  background-image: url(../././img/bg-picture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
