@@ -1,0 +1,51 @@
+.page__friends {
+  margin-top: 60px;
+  @media screen and (max-width: 767.98px) {
+    margin-top: 30px;
+  }
+}
+.friends {
+}
+.friends__container {
+}
+.friends__title {
+  margin-bottom: 40px;
+  @media screen and (max-width: 767.98px) {
+    margin-bottom: 20px;
+  }
+}
+.friends__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  @media screen and (max-width: 767.98px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+}
+.friends__item {
+  max-width: 288px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  transition: box-shadow 250ms ease;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  }
+}
+.friends__link {
+}
+.friends__img {
+  width: 100%;
+}
+.friends__descr {
+  padding: 16px 0 16px 16px;
+}
+.friends__name {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.friends__text {
+}

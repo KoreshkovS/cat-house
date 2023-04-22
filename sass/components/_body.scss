@@ -3,4 +3,17 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5; /* 24/16 */
+
+  color: $grey;
+  letter-spacing: 0.5px;
+}
+[class*="__container"] {
+  max-width: 974px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+[class*="__title"] {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66; /* 40/24 */
 }

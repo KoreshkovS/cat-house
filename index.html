@@ -15,9 +15,167 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header"></header>
-      <main class="page"></main>
+      <header class="header">
+        <div class="header__container">
+          <a href="" class="header__logo logo">
+            <img
+              class="logo-img"
+              src="./img/logo-img.svg"
+              alt="logo img"
+              width="24"
+              height="24"
+            />
+            Котодім
+          </a>
+
+          <nav class="header__menu menu" data-menu>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link">Обрати котика</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Задонатити котикам</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            type="button"
+            class="menu__button"
+            aria-expanded="false"
+            data-menu-button
+          >
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="page__main main">
+          <div class="main__container">
+            <div class="main__descr">
+              <h1 class="main__title">Привіт, людино</h1>
+              <p class="main__text">
+                Бракує в житті шовкових лапок, м’якенького пухнастого животика,
+                теплого муррркотіння й веселого розгардіяшу?Візьми собі котика.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="page__friends friends">
+          <div class="friends__container">
+            <h2 class="friends__title">
+              Ці друзяки готові приймати твою любов і піклування
+            </h2>
+
+            <ul class="friends__list">
+              <li class="friends__item">
+                <a href="" class="friends__link">
+                  <img
+                    src="./img/cat-1.jpg"
+                    alt="Барбарис"
+                    class="friends__img"
+                  />
+
+                  <div class="friends__descr">
+                    <h3 class="friends__name">Барбарис</h3>
+                    <p class="friends__text">
+                      Хижий для ворогів, ласкавий та м’якесенький до своїх.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="friends__item">
+                <a href="" class="friends__link">
+                  <img
+                    src="./img/cat-2.jpg"
+                    alt="Барбарис"
+                    class="friends__img"
+                  />
+
+                  <div class="friends__descr">
+                    <h3 class="friends__name">Мишка</h3>
+                    <p class="friends__text">
+                      Киця з роду котів-талісманів. Несе удачу та затишок в дім.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="friends__item">
+                <a href="" class="friends__link">
+                  <img
+                    src="./img/cat-3.jpg"
+                    alt="Барбарис"
+                    class="friends__img"
+                  />
+
+                  <div class="friends__descr">
+                    <h3 class="friends__name">Капітан</h3>
+                    <p class="friends__text">
+                      Всюди головний. Підкорить тебе, але ти будеш щасливий.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="page__family family">
+          <div class="family__container">
+            <h2 class="family__title">Котики, які вже знайшли сім’ю</h2>
+            <p class="family__text">
+              Ти тільки поглянь, скільки ніжності! На місці цих задоволених
+              людей можеш бути ти.
+            </p>
+            <ul class="family__gallery">
+              <li class="family_madia">
+                <img src="./img/1.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/2.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/3.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/4.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/5.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/6.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/7.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/8.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/9.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/10.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/11.jpg" alt="cat" class="family__image" />
+              </li>
+              <li class="family_madia">
+                <img src="./img/12.jpg" alt="cat" class="family__image" />
+              </li>
+
+            </ul>
+          </div>
+        </section>
+      </main>
       <footer class="footer"></footer>
     </div>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
