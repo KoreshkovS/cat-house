@@ -1,16 +1,47 @@
 .page__family {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  @media screen and (max-width: 767.98px) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 .family {
 }
 .family__container {
 }
 .family__title {
+  margin-bottom: 8px;
 }
 .family__text {
+  margin-bottom: 40px;
+  @media screen and (max-width: 479.98px) {
+    margin-bottom: 20px;
+  }
 }
 .family__gallery {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  @media screen and (max-width: 479.98px) {
+    gap: 10px;
+  }
 }
 .family_madia {
+  max-width: 144px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  transition: filter 250ms ease;
+  @media screen and (max-width: 479.98px) {
+    max-width: 140px;
+  }
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+  }
 }
 .family__image {
+  width: 100%;
 }
