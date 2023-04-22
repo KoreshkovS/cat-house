@@ -2,12 +2,22 @@
   background-color: #0f3f3c;
   padding-top: 48px;
   padding-bottom: 48px;
+
+  @media screen and (max-width: 479.98px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
   padding-left: 16px;
   padding-right: 16px;
+
+  @media screen and (max-width: 479.98px) {
+    flex-direction: column;
+  }
 }
 .footer__content {
 }
@@ -30,12 +40,18 @@
   text-align: end;
   color: $white;
   margin-bottom: 8px;
+  @media screen and (max-width: 479.98px) {
+    text-align: start;
+  }
 }
 .social__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  @media screen and (max-width: 479.98px) {
+    justify-content: start;
+  }
 }
 .social__item {
 }
